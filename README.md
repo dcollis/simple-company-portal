@@ -3,19 +3,19 @@
 This project accomplished two things (successfully):
 
 * Temporarily replace a Sharepoint installation running on an old Windows 2008R2 server that needed decommissioning.
-** The Sharepoint site really only served as a basic home page for the users of one of the companies in our group.
-** This was intended to be a stop-gap solution until Office 365, Teams, and Sharepoint online etc was rolled out to the entire company & set up correctly. i.e. it was intended to last a year or so.
-** It had the features:
-*** blog/news
-*** document store (download only - updatable by certain admins)
-*** group calendar (view only - updatable by admins)
-*** people directory (integrated with AD)
+  * The Sharepoint site really only served as a basic home page for the users of one of the companies in our group.
+  * This was intended to be a stop-gap solution until Office 365, Teams, and Sharepoint online etc was rolled out to the entire company & set up correctly. i.e. it was intended to last a year or so.
+  * It had the features:
+    * blog/news
+    * document store (download only - updatable by certain admins)
+    * group calendar (view only - updatable by admins)
+    * people directory (integrated with AD)
 
 * Proof of concept for future internal development. We wanted future sites to:
-** Be Azure native applications not requiring full VMs.
-** Take advantage of Azure authentication integrated with Active Directory for SSO internally, and for integration with standard company MFA when accessing externally.
-** Switch to using .NET Core & Single Page App style of dev* Switch to using Vue.js for main front-end work
-** Have newer front-end JS widgets
+  * Be Azure native applications not requiring full VMs.
+  * Take advantage of Azure authentication integrated with Active Directory for SSO internally, and for integration with standard company MFA when accessing externally.
+  * Switch to using .NET Core & Single Page App style of dev* Switch to using Vue.js for main front-end work
+  * Have newer front-end JS widgets
 
 ## Notes
 * Some of the features were cheats intended to make administering the system as simple as possible.
