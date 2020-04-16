@@ -1,0 +1,23 @@
+﻿{
+  "hello": "hallo",
+  "news": "nieuws",
+  "latest": "laatste",
+  "documents": "documenten",
+  "calendar": "kalender",
+  "upcoming events": "aankomende evenementen",
+  "people": "mensen",
+  "dashboard": "dashboard",
+  "read more": "Lees verder",
+  "close": "Uitgang",
+  "add article": "voeg een artikel toe",
+  "home": "huis",
+  "name": "naam",
+  "upload date": "upload datum",
+  "forename": "voornaam",
+  "surname": "achternaam",
+  "phone": "telefoon",
+  "email": "email",
+  "company": "bedrijf",
+  "All day": "gehele dag",
+  "Search": "Zoeken"
+}

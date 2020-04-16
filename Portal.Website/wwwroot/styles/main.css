@@ -1,0 +1,110 @@
+﻿.material-icons-active {
+    color: #ce8806;
+    transition: 0.3s
+}
+
+.material-icons:hover {
+    color: #241773;
+    transition: 0.3s
+}
+.calendar-event {
+    background-color: #ce8806;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.calendar-event:hover {
+    color: dimgray;
+    background-color: rgba(192, 197, 206, 0.5);
+    transition: 0.3s;
+}
+
+.material-item:hover {
+    background-color: rgba(192, 197, 206, 0.5);
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+drawer-frame-root {
+    display: flex;
+    height: 100vh;
+}
+
+.mdc-drawer-app-content {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+}
+
+.main-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.app-bar {
+  position: absolute;
+}
+
+.ck-editor__editable {
+    min-height: 300px;
+}
+
+
+tr:not(:last-child) {
+    border-bottom: 1px solid #E3E3E3;
+}
+
+tr:hover {
+    background-color:whitesmoke;
+    transition: 0.3s;
+}
+
+.card-title, i {
+    text-transform:capitalize;
+}
+
+.capitalize {
+    text-transform: capitalize
+}
+
+.breadcrumbs {
+    margin-top: 40px
+}
+
+table {
+    /* cellspacing */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    /* This covers the th elements */
+    padding: 0px;
+}
+
+tr {
+    /* This covers the tr elements */
+    padding: 0px;
+}
+
+th, td {
+    /* cellpadding */
+    padding: 0;
+}
+
+.profile-page .page-header {
+    height: 200px;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-label {
+        display: none;
+    }
+}
+
+.card-link {
+    color: whitesmoke;
+}

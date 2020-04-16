@@ -1,0 +1,14 @@
+﻿.fc-today {
+    background: #f5f5f5 !important;
+    border: none !important;
+    border-top: 1px solid #ddd !important;
+    font-weight: bold;
+}
+
+.fc-today .fc-day-number {
+    color: #000000
+}
+
+.fc-center h2 {
+    color: #000000 !important
+}
